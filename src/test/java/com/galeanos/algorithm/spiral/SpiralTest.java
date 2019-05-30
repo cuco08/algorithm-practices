@@ -1,22 +1,80 @@
 package com.galeanos.algorithm.spiral;
 
 //import org.junit.Assert;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class SpiralTest {
+    private Spiral spiral;
+    @BeforeClass
+    public static void setUp(){
+        System.out.println("Before each method using BeforeClass");
+    }
+
+    @Before
+    public void prerequisites(){
+        spiral =new Spiral();
+    }
 
     @Test
     public void testPrintMatrix() {
         int matrix[][] = new int[2][2];
-        Spiral spiral = new Spiral();
         spiral.printMatrix(matrix);
-
         // boolean result = method();
         // Assert.assertTrue(result);
     }
 
     @Test
-    public void testPrintMatrix_Null() {
+    public void testPrintMatrix_SizeZeroInvalid() {
+        boolean isValidMatrix;
+        int matrix[][] = new int[1][1];
+        matrix = spiral.calcMatrix(0,1);
+        if (matrix[0][0] == 0){
+            isValidMatrix = false;
+        } else {
+            isValidMatrix = true;
+        }
+        Assert.assertFalse(isValidMatrix);
+    }
 
+   @Test
+    public void testPrintMatrix_NegativeValue(){
+        int matrix[][] = new int[5][5];
+       boolean isValidMatrix;
+        spiral.calcMatrix(-1,-9);
+       if (matrix[0][0] == 0){
+           isValidMatrix = false;
+       } else {
+           isValidMatrix = true;
+       }
+        Assert.assertFalse(isValidMatrix);
+    }
+
+    @Test
+    public void testSendingLetters(){
+        int matrix[][] = new int[5][5];
+        boolean isValidMatrix;
+        spiral.calcMatrix('a',9);
+        if (matrix[0][0] == 0){
+            isValidMatrix = false;
+        } else {
+            isValidMatrix = true;
+        }
+        Assert.assertFalse(isValidMatrix);
+    }
+
+   @Test
+    public void testWhenInitialValidIsNegative(){
+        int matrix[][] = new int[5][5];
+        boolean isValidMatrix;
+       matrix = spiral.calcMatrix(5,-500);
+        if (matrix[0][0] == 0){
+            isValidMatrix = false;
+        } else {
+            isValidMatrix = true;
+        }
+        Assert.assertTrue(isValidMatrix);
     }
 }

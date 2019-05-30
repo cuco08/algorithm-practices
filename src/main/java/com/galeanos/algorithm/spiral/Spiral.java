@@ -1,12 +1,16 @@
 package com.galeanos.algorithm.spiral;
 
 public class Spiral {
+
     public int[][] calcMatrix(int n, int initialValue) {
+        n = validMatrixSize(n);
+
+    if (n>0) {
         int matrix[][] = new int[n][n];
         int matrixSize = n;
 
-        for (int k=0; k<(n+1)/2; k++) {
-            int i=k, j;
+        for (int k = 0; k < (n + 1) / 2; k++) {
+            int i = k, j;
 
             for (j = k; j < matrixSize; ++j) {
                 matrix[i][j] = initialValue++;
@@ -23,7 +27,7 @@ public class Spiral {
             }
 
             j = k;
-            for (i = matrixSize - 2; i >= k+1; --i) {
+            for (i = matrixSize - 2; i >= k + 1; --i) {
                 matrix[i][j] = initialValue++;
             }
 
@@ -31,6 +35,13 @@ public class Spiral {
         }
 
         return matrix;
+    }else{
+        int matrix[][] = new int[1][1];
+        matrix[0][0] = 0;
+        return matrix;
+    }
+
+       // return matrix;
     }
 
     public void printMatrix(int matrix[][]) {
@@ -44,7 +55,16 @@ public class Spiral {
 
     public static void main(String []args) {
         Spiral spiral = new Spiral();
-        int matrix[][] = spiral.calcMatrix(10, 100);
+        int matrix[][] = spiral.calcMatrix(5, -50);
         spiral.printMatrix(matrix);
+    }
+
+    public int validMatrixSize(int n){
+        if (n < 1 || n > 200){
+            //System.out.println("Invalid Value");
+             n = 0;
+        }
+        return n;
+
     }
 }
