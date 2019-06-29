@@ -3,9 +3,9 @@ package com.galeanos.algorithm.spiral;
 public class Spiral {
 
     public int[][] calcMatrix(int n, int initialValue) {
-        n = validMatrixSize(n);
+        validMatrixSize(n);
 
-    if (n>0) {
+    if (validMatrixSize(n)) {
         int matrix[][] = new int[n][n];
         int matrixSize = n;
 
@@ -59,12 +59,13 @@ public class Spiral {
         spiral.printMatrix(matrix);
     }
 
-    public int validMatrixSize(int n){
+    private boolean validMatrixSize(int n){
+        boolean validMatrix= true;
         if (n < 1 || n > 200){
             //System.out.println("Invalid Value");
-             n = 0;
+             validMatrix = false;
         }
-        return n;
+        return validMatrix;
 
     }
 }

@@ -1,10 +1,7 @@
 package com.galeanos.algorithm.spiral;
 
 //import org.junit.Assert;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import org.junit.*;
 
 public class SpiralTest {
     private Spiral spiral;
@@ -29,7 +26,7 @@ public class SpiralTest {
     @Test
     public void testPrintMatrix_SizeZeroInvalid() {
         boolean isValidMatrix;
-        int matrix[][] = new int[1][1];
+        int matrix[][];
         matrix = spiral.calcMatrix(0,1);
         if (matrix[0][0] == 0){
             isValidMatrix = false;
@@ -41,15 +38,11 @@ public class SpiralTest {
 
    @Test
     public void testPrintMatrix_NegativeValue(){
-        int matrix[][] = new int[5][5];
-       boolean isValidMatrix;
-        spiral.calcMatrix(-1,-9);
-       if (matrix[0][0] == 0){
-           isValidMatrix = false;
-       } else {
-           isValidMatrix = true;
-       }
-        Assert.assertFalse(isValidMatrix);
+       int matrix[][] = new int[1][1];
+       int matrix2[][];
+       matrix[0][0]=0;
+       matrix2 = spiral.calcMatrix(-1,-9);
+       Assert.assertEquals(matrix[0][0],matrix2[0][0]);
     }
 
     @Test
@@ -62,6 +55,7 @@ public class SpiralTest {
         } else {
             isValidMatrix = true;
         }
+
         Assert.assertFalse(isValidMatrix);
     }
 
@@ -76,5 +70,14 @@ public class SpiralTest {
             isValidMatrix = true;
         }
         Assert.assertTrue(isValidMatrix);
+    }
+
+    @After
+    public void tearDown(){
+        System.out.println("After test Methods");
+    }
+    @AfterClass
+    public static void bye(){
+        System.out.println("After Class");
     }
 }

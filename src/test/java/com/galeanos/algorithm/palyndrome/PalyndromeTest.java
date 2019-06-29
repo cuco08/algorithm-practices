@@ -1,6 +1,11 @@
 package com.galeanos.algorithm.palyndrome;
 
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.BeforeClass;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.After;
 
 public class PalyndromeTest {
     private Palyndrome palindrome1;

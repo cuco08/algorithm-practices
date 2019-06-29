@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b0d2977-1d63-4546-9360-084c594bd6df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/convertIntToBinTest/ConvertIntToBinTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galeanos-algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/convertIntToBin/ConverterIntToBin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/convertIntToBin/ConverterIntToBin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/spiral/Spiral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/spiral/Spiral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/palyndrome/PalyndromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/palyndrome/PalyndromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/spiral/SpiralTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/spiral/SpiralTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1240197140">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.212" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="4822" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4822" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/palyndrome/Palyndrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/spiral/Spiral.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/convertIntToBin/ConverterIntToBin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1351#1352#0" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/convertIntToBinTest/ConvertIntToBinTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/spiral/SpiralTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/palyndrome/PalyndromeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="73" column="3" selection-start-line="73" selection-start-column="3" selection-end-line="80" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>numbinat</find>
+      <find>string</find>
+      <find>numm</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="IntegrationHilda" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/palyndrome/Palyndrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/spiral/Spiral.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/palyndrome/PalyndromeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/spiral/SpiralTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/convertIntToBinTest/ConvertIntToBinTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/convertIntToBin/ConverterIntToBin.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="784" />
+    <option name="height" value="1342" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="convertIntToBin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="palyndrome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="spiral" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="convertIntToBinTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="palyndrome" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="spiral" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="galeanos-algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm-practices" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561845671658" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ConvertIntToBinTest.testConvertidorFor1">
+    <configuration name="ConverterIntToBin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.galeanos.algorithm.convertIntToBin.ConverterIntToBin" />
+      <module name="galeanos-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galeanos.algorithm.convertIntToBin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertIntToBinTest.testConvertidorFor1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="galeanos-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galeanos.algorithm.convertIntToBinTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.galeanos.algorithm.convertIntToBinTest" />
+      <option name="MAIN_CLASS_NAME" value="com.galeanos.algorithm.convertIntToBinTest.ConvertIntToBinTest" />
+      <option name="METHOD_NAME" value="testConvertidorFor1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalyndromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="galeanos-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galeanos.algorithm.palyndrome.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.galeanos.algorithm.palyndrome" />
+      <option name="MAIN_CLASS_NAME" value="com.galeanos.algorithm.palyndrome.PalyndromeTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="galeanos-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galeanos.algorithm.spiral.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.galeanos.algorithm.spiral" />
+      <option name="MAIN_CLASS_NAME" value="com.galeanos.algorithm.spiral.SpiralTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiralTest.testPrintMatrix_NegativeValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="galeanos-algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.galeanos.algorithm.spiral.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.galeanos.algorithm.spiral" />
+      <option name="MAIN_CLASS_NAME" value="com.galeanos.algorithm.spiral.SpiralTest" />
+      <option name="METHOD_NAME" value="testPrintMatrix_NegativeValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SpiralTest" />
+      <item itemvalue="JUnit.PalyndromeTest" />
+      <item itemvalue="JUnit.SpiralTest.testPrintMatrix_NegativeValue" />
+      <item itemvalue="Application.ConverterIntToBin" />
+      <item itemvalue="JUnit.ConvertIntToBinTest.testConvertidorFor1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ConvertIntToBinTest.testConvertidorFor1" />
+        <item itemvalue="Application.ConverterIntToBin" />
+        <item itemvalue="JUnit.SpiralTest.testPrintMatrix_NegativeValue" />
+        <item itemvalue="JUnit.PalyndromeTest" />
+        <item itemvalue="JUnit.SpiralTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b0d2977-1d63-4546-9360-084c594bd6df" name="Default Changelist" comment="" />
+      <created>1558137184485</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558137184485</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ConvertIntToBinTest_testConvertidor1515 - 2019.06.29 at 12h 38m 09s.xml">
+      <configuration name="ConvertIntToBinTest.testConvertidor1515" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertIntToBinTest_testConvertidorFor1 - 2019.06.29 at 12h 41m 33s.xml">
+      <configuration name="ConvertIntToBinTest.testConvertidorFor1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertIntToBinTest - 2019.06.29 at 12h 41m 43s.xml">
+      <configuration name="ConvertIntToBinTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertIntToBinTest - 2019.06.29 at 12h 47m 22s.xml">
+      <configuration name="ConvertIntToBinTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiralTest - 2019.06.29 at 12h 47m 27s.xml">
+      <configuration name="SpiralTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalyndromeTest - 2019.06.29 at 12h 47m 32s.xml">
+      <configuration name="PalyndromeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiralTest_testPrintMatrix_NegativeValue - 2019.06.29 at 16h 39m 57s.xml">
+      <configuration name="SpiralTest.testPrintMatrix_NegativeValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiralTest_testPrintMatrix_NegativeValue - 2019.06.29 at 16h 40m 54s.xml">
+      <configuration name="SpiralTest.testPrintMatrix_NegativeValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpiralTest_testPrintMatrix_NegativeValue - 2019.06.29 at 16h 41m 37s.xml">
+      <configuration name="SpiralTest.testPrintMatrix_NegativeValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConvertIntToBinTest_testConvertidorFor1 - 2019.06.29 at 16h 47m 46s.xml">
+      <configuration name="ConvertIntToBinTest.testConvertidorFor1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40015128" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50226927" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4977307" weight="0.3295082" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/galeanos-algorithm.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/palyndrome/Palyndrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/spiral/Spiral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/palyndrome/PalyndromeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="73" column="3" selection-start-line="73" selection-start-column="3" selection-end-line="80" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/spiral/SpiralTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/galeanos/algorithm/convertIntToBinTest/ConvertIntToBinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/galeanos/algorithm/convertIntToBin/ConverterIntToBin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
