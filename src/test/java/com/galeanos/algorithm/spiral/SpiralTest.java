@@ -1,7 +1,13 @@
 package com.galeanos.algorithm.spiral;
 
-//import org.junit.Assert;
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.BeforeClass;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.After;
+
+
 
 public class SpiralTest {
     private Spiral spiral;

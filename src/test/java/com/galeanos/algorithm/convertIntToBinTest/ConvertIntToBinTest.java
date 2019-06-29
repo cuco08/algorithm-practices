@@ -1,7 +1,12 @@
 package com.galeanos.algorithm.convertIntToBinTest;
 
 import com.galeanos.algorithm.convertIntToBin.ConverterIntToBin;
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
+import org.junit.BeforeClass;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.After;
 
 import java.util.Map;
 import java.util.HashMap;

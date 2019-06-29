@@ -1,10 +1,7 @@
 package com.galeanos.algorithm.convertIntToBin;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Scanner;
-import java.util.function.IntBinaryOperator;
 import java.util.Map;
 
 public class ConverterIntToBin {
