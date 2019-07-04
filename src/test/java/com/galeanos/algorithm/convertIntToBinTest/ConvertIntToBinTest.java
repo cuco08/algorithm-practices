@@ -48,6 +48,14 @@ public static void setUp(){
     Assert.assertThat(result, is(comprarResultado));
 }
 
+/*@Test
+    public void testleerNumeroAConvertirEnviandoLetras(){
+    String res;
+    res = converter1.leerNumeroAConvertir();
+    Assert.assertEquals(res,"1011");
+    // al parecer no se pueden leer del teclado en la unit Test
+}*/
+
     @After
     public void tearDown(){
         System.out.println("After test Methods");

@@ -6,13 +6,28 @@ import java.util.Map;
 
 public class ConverterIntToBin {
 
-    private String leerNumeroAConvertir(){
+    public String leerNumeroAConvertir(){
         int number,oneCounter = 0, zeroCounter = 0;
         String numBinary = null;
+        boolean continuar = false;
 
         Scanner scan =new Scanner(System.in);
-        System.out.println("Introduce el numero a convertir (Entre 0 y 500) : ");
-        number = scan.nextInt();
+
+        do {
+            System.out.println("Introduce el numero a convertir (Entre 0 y 500) : ");
+            while (!scan.hasNextInt()){
+                System.out.println("No es un numero!");
+                scan.next();
+            }
+
+            number = scan.nextInt();
+            if ( number < 0 || number > 500){
+                System.out.println("El numero no esta en el rango" );
+                continuar = false;
+            }else {
+                continuar = true;
+            }
+        }while (!continuar);
 
         numBinary = Integer.toBinaryString(number);
         System.out.println("Binario de: " + number+ " es: " + numBinary);
@@ -44,10 +59,11 @@ public class ConverterIntToBin {
     }
 
 
+
     public static void main(String ... args) {
         ConverterIntToBin convertidor11 = new ConverterIntToBin();
-        Map result1 = System.getenv();
-        result1 = convertidor11.convertidor(convertidor11.leerNumeroAConvertir());
+        //Map result1 = System.getenv();
+        Map <String,Integer>result1 = convertidor11.convertidor(convertidor11.leerNumeroAConvertir());
         convertidor11.imprimirResultado(result1);
     }
 }
