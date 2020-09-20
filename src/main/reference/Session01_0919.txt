@@ -1,0 +1,55 @@
+1. Crear cuenta en github - https://github.com/
+2. Generar llave publica y privada desde una terminal.
+  $cd
+  $ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+  $cd .ssh/
+  $pbcopy < id_rsa.pub
+3. Agregar llave publica a github: Profile > Settings > SSH and GPG keys
+4. Clonar el repositorio
+  $cd
+  $mkdir workspace
+  $cd workspace
+  $mkdir training
+  $cd training
+  $git clone git@github.com:cuco08/algorithm-practices.git
+  $cd algorithm-practices
+5. Listar los branches localmente
+  $git branch
+6. Mostrar el estado del branch actual
+  $git status
+7. Crear nuevo branches
+  $git checkout -b NOMBRE_BRANCH
+8. Sincronizar branches de github origen
+  $git fetch origin
+9. Cambiar de branches
+  $git checkout NOMBRE_BRANCH
+10. Mostrar el log de commits
+  $git log
+11. Agregar todos los cambios del directorio actual (localmente)
+  $git add .
+12. Hacer commit de mis cambios agregados (localmente)
+  $git commit -m "MENSAJE"
+13. Subir cambios de mi maquina local al repo en github la primera vez (nuevo branch)
+  $git push --set-upstream origin NOMBRE_BRANCH
+14. Subir cambios de mi maquina local al repo en github (el branch ya existe en github)
+  $git push
+15. Actualizar mi ambiente local con los cambios mas recientes en el repositorio
+  $git pull
+16. Revisar las diferencias
+  $git diff
+17. Deshacer los cambios en un archivo
+  $git checkout -- src/main/resources/graph01.txt
+18. Reiniciar los archivos que ya fueron agregados a la etapa de commit
+  $git reset HEAD
+19. Revertir un commit que fue hecho por error
+  $git revert IDENTIFICADOR_COMMIT
+
+------ Ejercicio ------
+1. Crear un nuevo branch basado en practica-01
+2. Agregar un archivo dentro del directorio /web <hilda.html, paco.html>
+3. Editar archivo html con ligas hacia:
+  - https://github.com/cuco08/algorithm-practices/commits/practica-01
+  - https://docs.github.com/es/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+  - https://www.w3schools.com/
+4. Push a su branches
+5. Crear un Pull Request BRANCH_NUEVO -> practica-01
