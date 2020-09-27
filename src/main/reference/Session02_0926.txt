@@ -1,0 +1,18 @@
+
+Investigate:
+- git merge
+- git rebase
+
+- Create repo [Hilda - practicas-ui]
+- Create a branch based off practica-02
+- Improve html using css styles
+  https://www.w3schools.com/css/default.asp
+- Submit Pull Request
+- Clonar el repo del API de employees y probar que funcione
+- Dise;ar UI basado en API de employees
+  - Login
+  - Logout
+  - Dar de alta empleados
+  - Dar de baja empleados
+  - Actualizar informacion de los empleados
+  - Consultar informacion de los empleados
