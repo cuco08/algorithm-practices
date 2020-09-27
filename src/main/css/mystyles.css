@@ -1,0 +1,35 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h1.black {
+  color: black;
+  text-align: right;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.smallText {
+  font-size: 10px;
+}
+
+div#big {
+  font-size: 40px;
+}
+
+p#big2 {
+  font-size: 60px;
+}
+
+h1, h2, p#big2 {
+  text-align: center;
+  color: red;
+}
